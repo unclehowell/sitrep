@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Cofnod",
+      "hasCanvas": false,
+      "bodyTextLen": 3795,
+      "bodyTextHash": "f758d8707d7d0e39a586d992ee3b8f9c6dea3be8c80730b4448af263826d8bc9",
+      "bodyTextPrefix": "TY MAWR · LLANDOUGH Cofnod Parties reached. Each row is collapse",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Cofnod",
+      "hasCanvas": false,
+      "bodyTextLen": 3863,
+      "bodyTextHash": "58ee58ce23c51d008fcfab48d901a16b2038a6ac93dc79f0d6c0cefbf4bee14d",
+      "bodyTextPrefix": "TY MAWR · LLANDOUGH Cofnod Parties reached. Each row is collapse",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
