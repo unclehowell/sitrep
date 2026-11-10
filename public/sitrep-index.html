@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sit Rep · Buckler Family Estate</title>
+  <meta name="description" content="Situation report protocol for abandoned or current chat sessions. Cross-references HubSpot, GitHub, Hive, Gmail and site state. Ends with 🟢 🟠 or 🔴.">
+  <style>
+    :root { color-scheme: dark; font: 16px/1.55 system-ui, -apple-system, sans-serif; background: #14141c; color: #f1f1f7; }
+    body { margin: 0; padding: clamp(20px, 4vw, 48px); max-width: 720px; }
+    h1 { font-size: 1.75rem; margin: 0 0 .4em; }
+    .kicker { font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: #a8a8bc; }
+    code, pre { background: #20202c; border: 1px solid #3a3a4a; border-radius: 6px; padding: .15em .4em; font-size: .92em; }
+    pre { padding: 1em; overflow-x: auto; white-space: pre-wrap; }
+    a { color: #f8dba0; }
+    .status { font-size: 1.4rem; margin: 1.2em 0 .4em; }
+    .card { border: 1px solid #3a3a4a; border-radius: 10px; padding: 1em 1.2em; margin: 1em 0; background: #1a1a24; }
+  </style>
+</head>
+<body>
+  <p class="kicker">Buckler Family Estate · Protocol</p>
+  <h1>Sit Rep</h1>
+  <p>Paste this into any AI chat (including old / abandoned sessions):</p>
+  <pre>do me a sit rep i.e. bucklerfamily.estate/sitrep/</pre>
+  <p>or simply:</p>
+  <pre>Sit Rep?</pre>
+
+  <div class="card">
+    <p><strong>What the agent does</strong></p>
+    <ul>
+      <li>Compacts the session objective</li>
+      <li>Cross-checks live Hive board, HubSpot tasks, GitHub issues, Gmail drafts/inbound, and relevant site pages</li>
+      <li>Returns a short situation report</li>
+      <li>Ends with exactly one colour status</li>
+    </ul>
+  </div>
+
+  <p class="status">🟢 COMPLETE / done / no more to do</p>
+  <p class="status">🟠 AMBER — slightly more to do</p>
+  <p class="status">🔴 RED — issue / needs attention</p>
+
+  <p>Full agent instructions: <a href="/sitrep/llms.txt">llms.txt</a> · Machine-readable: <a href="/sitrep/protocol.json">protocol.json</a></p>
+  <p style="opacity:.7;font-size:.9rem;margin-top:2em">v1.0.0 · 2026-11-10 · Grok (Hive seat)</p>
+</body>
+</html>
