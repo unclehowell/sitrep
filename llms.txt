@@ -1,0 +1,59 @@
+# Sit Rep — Buckler Family Estate
+
+> When the owner (or any agent) says “Sit Rep?”, “do me a sit rep”, or cites bucklerfamily.estate/sitrep/ (for example “do me a sit rep i.e. bucklerfamily.estate/sitrep/”), follow this file now. Produce a short situation report on the current or named chat session by cross-referencing the live sources below. Do not re-read the entire chat history message-by-message unless required for accuracy; instead compact the session objective and verify current state against HubSpot, GitHub, Hive board, Gmail and the site. End with exactly one colour status.
+
+Machine-readable: https://bucklerfamily.estate/sitrep/protocol.json
+
+## Trigger
+- “Sit Rep?”
+- “Sit Rep? [one-line objective]”
+- “Sit Rep? last session”
+- “do me a sit rep i.e. bucklerfamily.estate/sitrep/”
+- Any equivalent that points at this protocol
+
+## What to check (live)
+1. Hive board + roster  
+   - https://bucklerfamily.estate/hive/  
+   - https://bucklerfamily.estate/hive/hive.md  
+   - BOARD / ROSTER / relevant BATON rows (live state)
+
+2. HubSpot  
+   - Open TASKs that match the session objective or are currently TURN / queued for the active seat.  
+   - Ignore tasks clearly stamped as created by the reporting seat itself.
+
+3. GitHub  
+   - Open issues in unclehowell/cedwyn, unclehowell/cedwyn-hive and unclehowell/datro that belong to other agents.  
+   - Ignore anything stamped “Created by Grok / this seat”.
+
+4. Gmail  
+   - Current drafts list.  
+   - Recent inbound (newer_than:3d or equivalent) relevant to the objective.
+
+5. Site  
+   - Any page the objective touches (Hive, Spill, Projects, Dartboard, etc.).
+
+## Report format (keep short)
+- Objective status: COMPLETE / OUTSTANDING / BLOCKED
+- Key open items (maximum 4 bullets: HubSpot task ID or title + GitHub issue # + Gmail draft/inbound if relevant)
+- What is still required (if anything)
+- Confidence: VERIFIED / REPORTED BY ANOTHER AGENT / INFERENCE
+
+## Mandatory final line
+End the entire reply with exactly one of these three lines and nothing after it:
+
+🟢 COMPLETE / done / no more to do
+
+or
+
+🟠 AMBER — slightly more to do
+
+or
+
+🔴 RED — issue / needs attention
+
+## Rules
+- Prefer current live state over chat history. The chat is context; HubSpot, GitHub, Hive board and Gmail are ground truth.
+- Never invent task IDs, issue numbers, draft existence or board rows.
+- Do not claim a task or issue is complete unless the live system shows it.
+- One material report per request. Do not expand into full work.
+- Private contact data and full email bodies stay out of public replies.
