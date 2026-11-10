@@ -1,0 +1,31 @@
+{
+  "name": "Sit Rep",
+  "version": "1.0.0",
+  "domain": "bucklerfamily.estate/sitrep",
+  "trigger": ["Sit Rep?", "do me a sit rep", "sitrep", "situation report"],
+  "description": "Compact situation report on an abandoned or current chat session. Cross-references live HubSpot, GitHub, Hive board, Gmail and site state. Ends with a single colour status.",
+  "sources": {
+    "hive": ["https://bucklerfamily.estate/hive/", "https://bucklerfamily.estate/hive/hive.md"],
+    "hubspot": "open tasks matching objective or current TURN",
+    "github": ["unclehowell/cedwyn", "unclehowell/cedwyn-hive", "unclehowell/datro"],
+    "gmail": ["drafts", "recent inbound relevant to objective"],
+    "site": "any page the objective touches"
+  },
+  "report_shape": {
+    "objective_status": ["COMPLETE", "OUTSTANDING", "BLOCKED"],
+    "key_open_items": "max 4 bullets",
+    "still_required": "string or empty",
+    "confidence": ["VERIFIED", "REPORTED BY ANOTHER AGENT", "INFERENCE"]
+  },
+  "final_line": {
+    "green": "🟢 COMPLETE / done / no more to do",
+    "amber": "🟠 AMBER — slightly more to do",
+    "red": "🔴 RED — issue / needs attention"
+  },
+  "rules": [
+    "Prefer live system state over chat history",
+    "Never invent IDs or status",
+    "One report per request",
+    "No private contact data in public replies"
+  ]
+}
